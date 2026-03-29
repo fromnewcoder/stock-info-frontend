@@ -197,6 +197,102 @@ body {
   background: #334155;
 }
 
+.export-btn {
+  background: #059669 !important;
+}
+
+.export-btn:hover:not(:disabled) {
+  background: #047857 !important;
+}
+
+.report {
+  background: #1e293b;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.report-header {
+  margin-bottom: 24px;
+}
+
+.report-header h2 {
+  color: #f8fafc;
+  margin-bottom: 8px;
+}
+
+.compare-info {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.report-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.summary-card {
+  background: #0f172a;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.summary-card h4 {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.big-num {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #f8fafc;
+  font-variant-numeric: tabular-nums;
+}
+
+.big-num .unit {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  font-weight: 400;
+}
+
+.change {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.change.up {
+  color: #22c55e;
+}
+
+.change.down {
+  color: #ef4444;
+}
+
+.market-comparison,
+.trading-summary {
+  margin-top: 24px;
+}
+
+.market-comparison h3,
+.trading-summary h3 {
+  color: #f8fafc;
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+
+.up {
+  color: #22c55e;
+}
+
+.down {
+  color: #ef4444;
+}
+
 .table .highlight-row {
   background: rgba(59, 130, 246, 0.1);
 }
